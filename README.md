@@ -6,6 +6,8 @@ HTML je out. Čím dál více editorů (vč. vašeho README.md) podporuje čitel
 
 SSH klíče se automaticky hledají ve domovské složce uživatele v podadresáři .ssh (na Windows i pod Linuxem). Používají se dva klíče: veřejný (uložený s příponou .pub) a privátní (bez přípony). Privátní klíče po vás chtějí servery (např. GitHub: Settings > SSH and GPG keys), které chtějí ověřit vaši identitu (autentizace), soukromý klíč nikomu nedávejte.
 
+Pod Windows vygenerujete klíč např. pomocí nástroje puttygen. Soukromý klíč v openSSH formátu uložíte z menu Conversions > Export openSSH key, veřejný klíč zkopírujete z pole key.
+
 Funguje to na následujícím principu:
 
 1. Server vám pošle náhodně vygenerovaná data.
@@ -16,14 +18,14 @@ Na síti se tak nikdy neobjeví privátní klíč ani heslo.
 
 ## První spuštění gitu
 
-1. nainstalujte si git (pro windows [zde](https://git-scm.com/download/win)
+1. nainstalujte si git (pro windows [zde](https://git-scm.com/download/win))
 2. spusťte příkaz `git config --global user.name "vaše jméno"`, nastavte také klíč `user.email`, případně `core.editor`
 
 ## Vytvoření a sdílení repozitáře
 
-1. Na git serveru (veřejný GitHub), vytvoříte projekt.
+1. Na git serveru (veřejný GitHub), vytvoříte repozitář.
 2. Pozvete lidi ke spolupráci (Settings > Collaborators), musí mít účet na GitHubu
-3. Kdokoliv s přístupem si může spustit příkaz `git clone váš-repozitář.git`, který stáhne aktuální obsah a nastaví spojení se vzdáleným repozitářem na serveru
+3. Kdokoliv může spustit příkaz `git clone váš-repozitář.git`, který stáhne aktuální obsah a nastaví spojení se vzdáleným repozitářem na serveru (toto můžete omezit nastavením repozitáře jako privátní). Pouze lidé s přístupem mohou obsah editovat.
 
 ## Aktualizace dat
 
