@@ -26,6 +26,7 @@ Na síti se tak nikdy neobjeví privátní klíč ani heslo.
 1. Na git serveru (veřejný GitHub), vytvoříte repozitář.
 2. Pozvete lidi ke spolupráci (Settings > Collaborators), musí mít účet na GitHubu
 3. Kdokoliv může spustit příkaz `git clone váš-repozitář.git`, který stáhne aktuální obsah a nastaví spojení se vzdáleným repozitářem na serveru (toto můžete omezit nastavením repozitáře jako privátní). Pouze lidé s přístupem mohou obsah editovat.
+4. Příkaz `git clone` volejte pouze při první kopii na váš počítač. Tento příkaz vytvoří podadresář .git (který bývá někdy jako skrytý), kde jsou veškeré údaje o lokálním repozitáři.
 
 ## Aktualizace dat
 
