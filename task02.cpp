@@ -1,7 +1,7 @@
 /*
-format: N records of 8 bytes:
-  byte 1-3: birth date yyyyyyyd ddddmmmm (year of birth LSB - 1900)
-  byte 4-8: height (float LSB)
+format: N records of 6 bytes:
+  byte 1-2: birth date yyyyyyyd ddddmmmm (year of birth LSB - 1900)
+  byte 3-6: height (float LSB)
 
 separator 0xFF (after N records)
 name1|name2|...|nameN|
