@@ -1,0 +1,1 @@
+Popište, jakým způsobem chápete Dependency Inversion Principle. Uveďte vlastní příklad, na kterém to vysvětlete.
