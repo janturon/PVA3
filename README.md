@@ -4,7 +4,7 @@ HTML je out. Čím dál více editorů (vč. vašeho README.md) podporuje čitel
 
 ## SSH klíč
 
-SSH klíče se automaticky hledají ve domovské složce uživatele v podadresáři .ssh (na Windows i pod Linuxem). Používají se dva klíče: veřejný (uložený s příponou .pub) a privátní (bez přípony). Privátní klíče po vás chtějí servery (např. GitHub: Settings > SSH and GPG keys), které chtějí ověřit vaši identitu (autentizace), soukromý klíč nikomu nedávejte.
+SSH klíče se automaticky hledají ve domovské složce uživatele v podadresáři .ssh (na Windows i pod Linuxem). Používají se dva klíče: veřejný (uložený s příponou .pub) a privátní (bez přípony). Veřejné klíče po vás chtějí servery (např. GitHub: Settings > SSH and GPG keys), které chtějí ověřit vaši identitu (autentizace), soukromý klíč nikomu nedávejte.
 
 Pod Windows vygenerujete klíč např. pomocí nástroje puttygen. Soukromý klíč v openSSH formátu uložíte z menu Conversions > Export openSSH key, veřejný klíč zkopírujete z pole key.
 
