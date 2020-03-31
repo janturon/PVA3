@@ -32,6 +32,9 @@ public:
 	}
 };
 
+/*
+	Vector2b řeší nedostatky Vector2a pomocí níže uvedené globální funkce. Implementujte do této třídy také operátor pro vektorový součin (tj. násobení vektoru vektorem)
+*/
 class Vector2b : public Vector2 {
 public:
 	using Vector2::Vector2;
